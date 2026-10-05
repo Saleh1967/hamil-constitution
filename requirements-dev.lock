@@ -1,0 +1,4 @@
+# قفل أدوات التطوير — لا وقت تشغيل خارجي (std-lib فقط)
+# أعد البناء: pip install -r requirements-dev.lock
+ruff==0.6.9
+hypothesis==6.112.0

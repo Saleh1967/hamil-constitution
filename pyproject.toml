@@ -1,0 +1,16 @@
+[project]
+name = "hamil-constitution"
+version = "1.0.0"
+description = "مستودع المدلول وحده — شجرة المعرفة على البرهان البتّي (SLGE)"
+requires-python = ">=3.10"
+# زمن التشغيل: مكتبة قياسية خالصة — لا اعتماديات خارجية أصلًا
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "ruff==0.6.9",
+  "hypothesis>=6.100,<7",
+]
+
+[tool.ruff]
+line-length = 120

@@ -1,0 +1,172 @@
+{
+  "generated": "2026-10-06",
+  "repo": "hamil-constitution",
+  "policy": "لا يدخل إلا بت ولا يخرج إلا بت — عبر حزمة slge المعتمدة وحدها",
+  "whitelisted_io": [
+    "tools/verify_repo.py",
+    "tools/prove_alama_hamila.py (IO معلن: أداة برهان بقراءة مباشرة معلنة؛ تبقى في القائمة البيضاء مؤقتًا بشرط إعادة إيداع المدوّنة عبر البوابة (ADR لاحق))"
+  ],
+  "entries": [
+    {
+      "path": "src/slge/slge.py",
+      "moved_to": "suspended/src__slge__slge.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_laws.py",
+      "moved_to": "suspended/src__slge__slge_laws.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_layers.py",
+      "moved_to": "suspended/src__slge__slge_layers.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_order.py",
+      "moved_to": "suspended/src__slge__slge_order.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_phon.py",
+      "moved_to": "suspended/src__slge__slge_phon.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_reverse.py",
+      "moved_to": "suspended/src__slge__slge_reverse.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_unicode.py",
+      "moved_to": "suspended/src__slge__slge_unicode.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_wazun.py",
+      "moved_to": "suspended/src__slge__slge_wazun.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/algebra116.py",
+      "moved_to": "suspended/src__slge__algebra116.py",
+      "reason": "نسخة SLGE قديمة منسوخة — معيبة (هي/إن تنهاران، الألف الخنجرية تسقط)؛ المصدر الوحيد المعتمد هو حزمة slge المثبتة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_seed.py",
+      "moved_to": "suspended/src__slge__slge_seed.py",
+      "reason": "عنوان بتّي غير حقناني (مِنْ/مٍ)؛ يُعاد عبر شهادات بوابة gate فقط",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "src/slge/slge_ma3ani.py",
+      "moved_to": "suspended/src__slge__slge_ma3ani.py",
+      "reason": "عنوان بتّي غير حقناني (مِنْ/مٍ)؛ يُعاد عبر شهادات بوابة gate فقط",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "data/seed_tree.json",
+      "moved_to": "suspended/data__seed_tree.json",
+      "reason": "عنوان بتّي غير حقناني (مِنْ/مٍ)؛ يُعاد عبر شهادات بوابة gate فقط",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "tests/test_slge.py",
+      "moved_to": "suspended/tests__test_slge.py",
+      "reason": "يعتمد على وحدات معلقة أو قراءة بيانات مباشرة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "عودة وحداته عبر البوابة"
+    },
+    {
+      "path": "tests/test_tree.py",
+      "moved_to": "suspended/tests__test_tree.py",
+      "reason": "يعتمد على وحدات معلقة أو قراءة بيانات مباشرة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "عودة وحداته عبر البوابة"
+    },
+    {
+      "path": "tests/test_properties.py",
+      "moved_to": "suspended/tests__test_properties.py",
+      "reason": "يعتمد على وحدات معلقة أو قراءة بيانات مباشرة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "عودة وحداته عبر البوابة"
+    },
+    {
+      "path": "tests/test_ma3ani.py",
+      "moved_to": "suspended/tests__test_ma3ani.py",
+      "reason": "يعتمد على وحدات معلقة أو قراءة بيانات مباشرة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "عودة وحداته عبر البوابة"
+    },
+    {
+      "path": "tests/test_coverage.py",
+      "moved_to": "suspended/tests__test_coverage.py",
+      "reason": "يعتمد على وحدات معلقة أو قراءة بيانات مباشرة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "عودة وحداته عبر البوابة"
+    },
+    {
+      "path": "tests/test_maqayis.py",
+      "moved_to": "suspended/tests__test_maqayis.py",
+      "reason": "يعتمد على وحدات معلقة أو قراءة بيانات مباشرة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "عودة وحداته عبر البوابة"
+    },
+    {
+      "path": "tests/test_data_quality.py",
+      "moved_to": "suspended/tests__test_data_quality.py",
+      "reason": "يعتمد على وحدات معلقة أو قراءة بيانات مباشرة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "عودة وحداته عبر البوابة"
+    },
+    {
+      "path": "legacy/prove_alama_hamila.py",
+      "moved_to": "suspended/legacy__prove_alama_hamila.py",
+      "reason": "نسخة legacy مكررة لأداة البرهان؛ النسخة المعتمدة tools/prove_alama_hamila.py وحيدة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "tools/knowledge_tree.py",
+      "moved_to": "suspended/tools__knowledge_tree.py",
+      "reason": "غلاف كان يستورد محركًا معلقًا",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "tests/test_carrier.py",
+      "moved_to": "suspended/tests__test_carrier.py",
+      "reason": "يعتمد على أداة البرهان وكتابة ملفات",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    },
+    {
+      "path": "tools/run_tests.py",
+      "moved_to": "suspended/tools__run_tests.py",
+      "reason": "منفذ اختبارات يطبع مباشرة؛ يعود عبر مشغّل الحزمة",
+      "suspended_at": "2026-10-06",
+      "re_admit_requires": "بوابة الحزمة + ADR + توقعات مطعومة"
+    }
+  ]
+}
