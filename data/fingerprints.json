@@ -1,0 +1,237 @@
+{
+ "maqayis_by_root_csv_999.csv": {
+  "sha256": "2c6000bd47797e183294b89da77df4ddfd27921ea595c6071ba52299c382ccb0",
+  "git_sha": "fc5f1b432daad8e7f7770e5e86b955b0634e607e",
+  "size": 5539405,
+  "official": false,
+  "preexisting": true
+ },
+ "src/alghanem/arabic/word_structure_dictionary.py": {
+  "sha256": "0c0c516c75f105642feaea46687d149b3d29d7b929f77f068029548bcd2cd555",
+  "git_sha": "1db674fcd510529903c73409954f9bf7fbd3627f",
+  "size": 16635,
+  "official": true,
+  "preexisting": true
+ },
+ "src/alghanem/arabic/lexical_artifact_closure.py": {
+  "sha256": "256dc12a27c74cfbabd6fe0055d59e08885ede6e7ec45dad2a7f12a2582980de",
+  "git_sha": "b44e61e134f0c5fb6824b3964674b2c5ac9e7b72",
+  "size": 22631,
+  "official": false,
+  "preexisting": true
+ },
+ "src/alghanem/arabic/lexical_path_census.py": {
+  "sha256": "04beb0cfd916615c83c5b38d52e8fa537a2512db995eb15c128fc0a2d2e97473",
+  "git_sha": "99163a6f8bbd666365b77be9607d1693fbbd28b0",
+  "size": 19690,
+  "official": false,
+  "preexisting": true
+ },
+ "src/alghanem/arabic/ibtida_census.py": {
+  "sha256": "500fb27062902c6000f100922ece267c9fb1f6f5d60c75bf352a3b687f40f56c",
+  "git_sha": "2d22cd8f87bb7e89ff8ac8fbc4b2e7148eda65b3",
+  "size": 23815,
+  "official": true,
+  "preexisting": true
+ },
+ "src/alghanem/arabic/ibtida_preregistration.py": {
+  "sha256": "78c15676c74a7a04058b97257cf18352d0d2ef3ec2f172702a9ed859837ba6ff",
+  "git_sha": "e5704392f55707ad204b12e8fb6e1f1ef5b6f967",
+  "size": 40914,
+  "official": false,
+  "preexisting": true
+ },
+ "src/alghanem/arabic/ibtida_wasl_waqf_registration.py": {
+  "sha256": "b2ede6df92b79ede3f28f11effd7d060f51a205075784ff7fcbc9786c11db06d",
+  "git_sha": "c699b073b366612135856d43b05957933c50e4f4",
+  "size": 31999,
+  "official": false,
+  "preexisting": true
+ },
+ "src/alghanem/arabic/waqf_closure_census.py": {
+  "sha256": "8011d39bfed645778beb06caa09bec94fc9908410902cacedd03176b80e8643e",
+  "git_sha": "bebc8e6be290f92dc4823282121702eb5d70f5bb",
+  "size": 19164,
+  "official": false
+ },
+ "src/alghanem/arabic/waqf_closure_preregistration.py": {
+  "sha256": "c34399933493908049fe3dd927b44a5f57f29f51ffded13abbd8dc690440c41d",
+  "git_sha": "1e13a4e29138b3f48cd4211beb0dca95c242c25d",
+  "size": 30978,
+  "official": false
+ },
+ "src/alghanem/arabic/sentence_card_preregistration.py": {
+  "sha256": "9110fcb7d1d3d9e4eafd146aa090b14af9ae4c28d2c6d5392050386e4f564048",
+  "git_sha": "763456b9b41193cba7c0376611b776787917553c",
+  "size": 72151,
+  "official": false
+ },
+ "src/alghanem/arabic/sentence_card_source_texts.py": {
+  "sha256": "ac5ec0c0a603ef2cbb94dc573f9c3e83e70286d771b57db174be80b9d18e15ba",
+  "git_sha": "f461d0f0c056e2bb2f7b2f5590512f77314afccd",
+  "size": 28959,
+  "official": false
+ },
+ "src/alghanem/arabic/composition_ifada_consumption.py": {
+  "sha256": "856a0fc1774a713541a7fe31aca385ce0ab9d1299d1a3cddc31a2c01b66cb08f",
+  "git_sha": "fbdf0c6c52e2cfe9c625f74f0b8484ea4f4de2c9",
+  "size": 22317,
+  "official": true
+ },
+ "src/alghanem/arabic/composition_ifada_experiment.py": {
+  "sha256": "881fba9192d045114d34c98b577dee8d5499ff30b4608905958b0cafbfa8b408",
+  "git_sha": "a2aa7251931fb8d5896528a9fd83f9827005f934",
+  "size": 23565,
+  "official": true
+ },
+ "src/alghanem/arabic/composition_ifada_interpretation.py": {
+  "sha256": "ffee85cd82444d9812a5c6ad2b718904abd35a9750165fa9a79e761f906bbfa5",
+  "git_sha": "d0cf6bfff94f441ab79be4d014ae90b9b9bac75a",
+  "size": 17162,
+  "official": true
+ },
+ "src/alghanem/arabic/composition_ifada_path.py": {
+  "sha256": "33aa540dadbc9d938d24cfbb7421fd42b3b88eedb9d3e47435f6a3850868b550",
+  "git_sha": "9b6cbd10e5618c68593d713fabd6e016a56cf602",
+  "size": 34630,
+  "official": true
+ },
+ "src/alghanem/generation/candidate.py": {
+  "sha256": "45619caf6cd77dd2f70248f4bcc37bc2382afa5dabf90a107df7d2663a7baf69",
+  "git_sha": "2939218ecaa2d0ccc69fe8ec1c7b96d7833e04a6",
+  "size": 26870,
+  "official": false
+ },
+ "src/alghanem/generation/certificate.py": {
+  "sha256": "41749b1b23ef55025d072804b14f0d80e4aedad97bea4d9d16a7ae2e2fd9d426",
+  "git_sha": "400e707dad27e96dc4be2ac11730220023f9fa57",
+  "size": 22060,
+  "official": true
+ },
+ "src/alghanem/generation/specification.py": {
+  "sha256": "3de154dfbf944cc836c33abd5b80994742050961955c8729824e4eaf64d8a1ef",
+  "git_sha": "50c5b0cfa2a0214db5163016777675dd98e25f65",
+  "size": 36749,
+  "official": false
+ },
+ "src/alghanem/generation/trace.py": {
+  "sha256": "61cad12b7db8908748142d1d50e85d5dc45795e3b84f1b88cf8bbcc226506c42",
+  "git_sha": "14d5607cecaa11b3e4e31448b5e4fe7fcf377040",
+  "size": 9929,
+  "official": false
+ },
+ "src/alghanem/metaalgebra/clause.py": {
+  "sha256": "a90727f99e6a0851df6961a2ed7de00423daeae290e8bd24a0b9cd56d5a71c32",
+  "git_sha": "5b456ed63d8d58229615f536df3b04331f5cd2ed",
+  "size": 13746,
+  "official": false
+ },
+ "src/alghanem/metaalgebra/commutation.py": {
+  "sha256": "a935c1702b1c00c95c9c5a446f8ae8f3a7d49abc1de5ae36658202fe677ccc8c",
+  "git_sha": "8a3182c92767d8d708e7854d630bcb42c756ec74",
+  "size": 12988,
+  "official": false
+ },
+ "src/alghanem/metaalgebra/composition.py": {
+  "sha256": "e8fd382c338fe1ff933775adb04f2356b8b8051d7cdda62f2b3d823ab37a2d72",
+  "git_sha": "ff682f98b66a6d723e061637d153ea183f8d4689",
+  "size": 9692,
+  "official": false
+ },
+ "src/alghanem/metaalgebra/layer.py": {
+  "sha256": "6db692fdd11b3a9405101dd99b071a8b26e14de23c267eaeb1305091f4d06d09",
+  "git_sha": "1519a5815d9f9c01737d5131ab881f214f9668cd",
+  "size": 18585,
+  "official": false
+ },
+ "src/alghanem/metaalgebra/generalization.py": {
+  "sha256": "0590e10f50764b1f06938ecefbc827080f946253ee4af12b12f494bdc0307167",
+  "git_sha": "79f5a9ab193c20cedb8f2f84cf9ce056a07e2574",
+  "size": 12524,
+  "official": false
+ },
+ "src/alghanem/metaalgebra/realization.py": {
+  "sha256": "a5cbbb10dfb1233b5c067f0ac085b89e235d5478b43788cb58df857d421b7eb9",
+  "git_sha": "13c099c90598d8113fcd2a7441e2114b9d596d55",
+  "size": 23378,
+  "official": false
+ },
+ "src/alghanem/kernel/birth.py": {
+  "sha256": "69b6540b3cb2a92caa35c17da47df2c2458b9a72c2d0621074643ecb3350d8a6",
+  "git_sha": "2ba02abecf5e735bd160b74afb606366550732e8",
+  "size": 27717,
+  "official": false
+ },
+ "src/alghanem/kernel/invariant.py": {
+  "sha256": "4dcc1ca55ee383e7c8fb6e3b0a44fff5e437a4ead0945765ea33f70e7bd7fb2c",
+  "git_sha": "6078afbcf519869faa699de748877aae852eea70",
+  "size": 52789,
+  "official": true
+ },
+ "src/alghanem/kernel/fractal.py": {
+  "sha256": "6d3186917dd7ec7428702b90fb9b7ad8d6308c5a79db0db7f01dc3c6ef8563d6",
+  "git_sha": "13fd6bdd706c445201fa9b38bbf141cc6dac7bf9",
+  "size": 22911,
+  "official": false
+ },
+ "src/alghanem/kernel/experimental.py": {
+  "sha256": "258611e65787f715a7fb83157cc972505cdaadd42a12ee6def2b41918febbd09",
+  "git_sha": "b38298c209cfa315d913f0bf835030cb516c6dd4",
+  "size": 42902,
+  "official": false
+ },
+ "src/alghanem/kernel/transition.py": {
+  "sha256": "bb2ad74f5dfd9498724946c0badea80b306546819e1f646e13594777cdfccb85",
+  "git_sha": "f528493394d3ed4841dacef02b0c8d6cbbc10647",
+  "size": 23156,
+  "official": false
+ },
+ "src/alghanem/kernel/residual_survival.py": {
+  "sha256": "382564e4433f41b731d2fe7eab26104f48351166865aa878b7aafd2f21898b4e",
+  "git_sha": "78df6015d77a15ec0a627e3b2920dc96cc8e1e2a",
+  "size": 24568,
+  "official": false
+ },
+ "src/alghanem/execution/laws.py": {
+  "sha256": "a4e92d23301715173576c31c4367d46eba3b4c398a5c3c57169dc70515a2e75a",
+  "git_sha": "15acfde185adbeed0cf7d086147dc1c86be78b21",
+  "size": 29413,
+  "official": true
+ },
+ "src/alghanem/execution/contract.py": {
+  "sha256": "b74626222dda0f89c601d7807c56ef9f166dfed642541f1cd4f71a6f72634414",
+  "git_sha": "3779a653fe829f736288fbb020560340c4d51873",
+  "size": 22557,
+  "official": false
+ },
+ "src/alghanem/execution/frozen_json.py": {
+  "sha256": "1f964942ebafb135fb33e1d39b39d9ef0f129fcf9cba1f0f7deed8025e42cbc0",
+  "git_sha": "1b6a0c2a2f413acc142a98ecf4bd1b1f9d0bc0c3",
+  "size": 13148,
+  "official": false
+ },
+ "src/alghanem/execution/coverage.py": {
+  "sha256": "c43ee204fb7b35bf21ad61810566e42d02e47f590299c5e51c54924a84c5cc3b",
+  "git_sha": "4aba8f8eabd5688b5ab90112e4462fbf707645fe",
+  "size": 38995,
+  "official": false
+ },
+ "src/alghanem/program/project_state.py": {
+  "sha256": "d34425ce9fc97c2b0613ecb3e8aedf8916bae2645777882ad43b05373b040af0",
+  "git_sha": "a8bcbc8cbff249b3b192cc0eda992defd5f40b1f",
+  "size": 25862,
+  "official": false
+ },
+ "src/alghanem/program/constitution_ledger.py": {
+  "sha256": "1037d1f4f08e4baad440edc24ba5347299457447a4417071cd650fc9f46ce0d5",
+  "git_sha": "cfbc5ce825dae8b54c466db4759acf3816a8cfe5",
+  "size": 47116,
+  "official": false
+ },
+ "src/alghanem/program/certainty_ladder.py": {
+  "sha256": "5c903e0e5037ba9e99a3dc44eed820a453911ffe26216fa713570b6e1383fe60",
+  "git_sha": "a0045375f678c564adf1982294c928a844b0c33d",
+  "size": 16043,
+  "official": false
+ }
+}

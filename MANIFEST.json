@@ -1,0 +1,135 @@
+{
+  "repo": "hamil-constitution",
+  "sealed_at": "2026-10-05T18:40-SOURCE-SEAT-CONVENTION",
+  "rules": [
+    "no claim without ledger grade",
+    "no engine without green run",
+    "no data without hash"
+  ],
+  "files": {
+    ".github/workflows/ci.yml": {
+      "sha256": "924106da1b723efcebcc6b5cce68d0ff1e0b5c8300ad7671340e3ba02d6901bb",
+      "bytes": 319
+    },
+    "README.md": {
+      "bytes": 2031,
+      "sha256": "a3b9a6682aa33a95fbf5e512c0c9cdd84f7a4ae63a3049e2ab3e1d3cbea179d1"
+    },
+    "corpora/quran-simple-enhanced.txt": {
+      "sha256": "37633090743d403886b334d12dd911d1994e49767faa9f2be0f01fd48b466c5a",
+      "bytes": 1319901
+    },
+    "data/fingerprints.expected.json": {
+      "sha256": "850fc123a637d28431873b8976d23893957f168c6ab0b64315b4d391849b46af",
+      "bytes": 1749
+    },
+    "data/fingerprints.json": {
+      "sha256": "13441ff9a82b98eec90cdcbf1a528080f981ab1422fc7e9c2171b68e63954692",
+      "bytes": 8703
+    },
+    "data/huruf_alm3ani.spec.json": {
+      "sha256": "8a605d76fcf92a445331dc071865eae08d824148dfd4d47c3bc2ac27af79e33a",
+      "bytes": 6283
+    },
+    "data/maqayis_by_root_csv_999.csv": {
+      "sha256": "2c6000bd47797e183294b89da77df4ddfd27921ea595c6071ba52299c382ccb0",
+      "bytes": 5539405
+    },
+    "data/verb_triliteral.csv": {
+      "sha256": "2c9aa2a47a1fc27c5791e945ee12424f4bda412ee5873b9854d2c7056a57a2d5",
+      "bytes": 241715
+    },
+    "docs/COVERAGE_MATRIX.md": {
+      "sha256": "a7002b216e0807ad0a8d9feff20451aa6bf55f9400634dd330e66fb94d040885",
+      "bytes": 821
+    },
+    "generated/alama_hamila_proof.json": {
+      "sha256": "1e10afe09777c42e5c4c3e739b6248760f6dfedee320ecdc76a3bee7c6f8bc77",
+      "bytes": 782
+    },
+    "governance/history/amendments.jsonl": {
+      "sha256": "fe4bf6f9b4db3d7c5286384fbd50e0d4e26e5bf448a75260e0095c829b584fd4",
+      "bytes": 1376
+    },
+    "governance/registry/claims_ledger.json": {
+      "bytes": 59728,
+      "sha256": "2cc05badda90cd6df253ad40365a3583cbb5e58f70a7cbdd4a244bc906e1d159"
+    },
+    "legacy/prove_alama_hamila.py": {
+      "sha256": "4836cba332ba825993ed3cf063a1cff0508d2aa4703ba08286707a3e88f34ea9",
+      "bytes": 3139
+    },
+    "src/slge/algebra116.py": {
+      "sha256": "ddc2925c8f444acdb03f20bc4aa761f440b46536a882fd16c86231bcc23fee54",
+      "bytes": 6360
+    },
+    "src/slge/slge.py": {
+      "sha256": "11c0faa7591449165c8908a520e1e1933193f5c52793477d076b8a780b4d1bfa",
+      "bytes": 13648
+    },
+    "src/slge/slge_laws.py": {
+      "sha256": "4a8bc48266f25536ce4a4f7549c05edbfb1381e36b35477ef18b9f51609dc99c",
+      "bytes": 6729
+    },
+    "src/slge/slge_layers.py": {
+      "sha256": "44303d0fbe111020d7a7c4cc039ac6081153b6795774c5c77c27f9ccdb926f6f",
+      "bytes": 5529
+    },
+    "src/slge/slge_order.py": {
+      "sha256": "516ef88c8dd377b2c32d910c013060ad22f69a25c05a2341d387c0938dc11d97",
+      "bytes": 4703
+    },
+    "src/slge/slge_phon.py": {
+      "sha256": "eaa6ba499b7270683e566ca671ae4857861df97c29419d08efc8d175dc22e45f",
+      "bytes": 5026
+    },
+    "src/slge/slge_reverse.py": {
+      "sha256": "cf54108cdc1224071a15dcb116ae69c4786d54007bfd475ae6cf01af41cf8f89",
+      "bytes": 5899
+    },
+    "src/slge/slge_unicode.py": {
+      "sha256": "6cb309eff74d73139eb91e7078222e7da5170fa1314b14f9315b27b534c59e1b",
+      "bytes": 3602
+    },
+    "src/slge/slge_wazun.py": {
+      "sha256": "0dd79c4810cc0dee2fb6476d95759f2651b51ddd1d0ac755ed59c8be54e844ea",
+      "bytes": 3087
+    },
+    "tests/test_carrier.py": {
+      "sha256": "c90aff7dc8885153d14ae114a919894491f1d7934ec53859aa8d649c604979b6",
+      "bytes": 995
+    },
+    "tests/test_coverage.py": {
+      "sha256": "f82a4c0940e966c2fd389f417e9f865d03b87dbeb9ea78893fa1c98a59092391",
+      "bytes": 726
+    },
+    "tests/test_maqayis.py": {
+      "sha256": "6b3df69bb478d90eee53263c6eaa6787ef45e50ba5da3cad323847d2f0cc486a",
+      "bytes": 1283
+    },
+    "tests/test_slge.py": {
+      "sha256": "b904fea036848bb07521b23481cf608516783077bdaa436c676d2a01b09c6b39",
+      "bytes": 292
+    },
+    "tools/prove_alama_hamila.py": {
+      "sha256": "4836cba332ba825993ed3cf063a1cff0508d2aa4703ba08286707a3e88f34ea9",
+      "bytes": 3139
+    },
+    "tools/verify_repo.py": {
+      "sha256": "d870ff8ea9b5a88bd76b62c3024e5f7c4d51e4366b227835d2016723ac3cc55c",
+      "bytes": 647
+    },
+    "src/slge/slge_ma3ani.py": {
+      "bytes": 17901,
+      "sha256": "5b5f7cd0adba6e7bbddcff5b8fe43a02cb3f7f520908f8e32412b81699c92a00"
+    },
+    "tests/test_ma3ani.py": {
+      "bytes": 2223,
+      "sha256": "a082f8af41ec61963f1f13905f2db1245a95b9b9de2d874910550ed0795d848b"
+    },
+    "data/shakhsiyya_sources.json": {
+      "bytes": 4138,
+      "sha256": "599e25dfe9ac21fe27418fb1eb993d0d7a8131469a882ca7ffc3e63e703d4be6"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "note": "بصمات git الرسمية (git blob sha1) من GitHub API — معايير القبول؛ تحقق harvest.py منها عند التنزيل ولا يقبل بصمة أولى عمياء لهذه الملفات.",
+ "source": "api.github.com/repos/Saleh1967/Alghanem/contents/... @ main",
+ "files": {
+  "src/alghanem/arabic/word_structure_dictionary.py": {
+   "size": 16635,
+   "git_sha": "1db674fcd510529903c73409954f9bf7fbd3627f"
+  },
+  "src/alghanem/arabic/ibtida_census.py": {
+   "size": 23815,
+   "git_sha": "2d22cd8f87bb7e89ff8ac8fbc4b2e7148eda65b3"
+  },
+  "src/alghanem/kernel/invariant.py": {
+   "size": 52789,
+   "git_sha": "6078afbcf519869faa699de748877aae852eea70"
+  },
+  "src/alghanem/execution/laws.py": {
+   "size": 29413,
+   "git_sha": "15acfde185adbeed0cf7d086147dc1c86be78b21"
+  },
+  "src/alghanem/generation/certificate.py": {
+   "size": 22060,
+   "git_sha": "400e707dad27e96dc4be2ac11730220023f9fa57"
+  },
+  "src/alghanem/arabic/composition_ifada_consumption.py": {
+   "size": 22317,
+   "git_sha": "fbdf0c6c52e2cfe9c625f74f0b8484ea4f4de2c9"
+  },
+  "src/alghanem/arabic/composition_ifada_experiment.py": {
+   "size": 23565,
+   "git_sha": "a2aa7251931fb8d5896528a9fd83f9827005f934"
+  },
+  "src/alghanem/arabic/composition_ifada_interpretation.py": {
+   "size": 17162,
+   "git_sha": "d0cf6bfff94f441ab79be4d014ae90b9b9bac75a"
+  },
+  "src/alghanem/arabic/composition_ifada_path.py": {
+   "size": 34630,
+   "git_sha": "9b6cbd10e5618c68593d713fabd6e016a56cf602"
+  }
+ },
+ "read_in_session": [
+  "src/alghanem/arabic/composition_ifada_consumption.py",
+  "src/alghanem/arabic/composition_ifada_experiment.py",
+  "src/alghanem/arabic/composition_ifada_interpretation.py",
+  "src/alghanem/arabic/composition_ifada_path.py"
+ ]
+}
