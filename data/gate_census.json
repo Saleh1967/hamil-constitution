@@ -1,0 +1,22 @@
+{
+ "files": {
+  "fingerprints.expected.json": "850fc123a637d28431873b8976d23893957f168c6ab0b64315b4d391849b46af",
+  "fingerprints.json": "13441ff9a82b98eec90cdcbf1a528080f981ab1422fc7e9c2171b68e63954692",
+  "huruf_alm3ani.spec.json": "8a605d76fcf92a445331dc071865eae08d824148dfd4d47c3bc2ac27af79e33a",
+  "shakhsiyya_sources.json": "599e25dfe9ac21fe27418fb1eb993d0d7a8131469a882ca7ffc3e63e703d4be6"
+ },
+ "sentences": 118,
+ "words": 496,
+ "status": {
+  "DEFER": 465,
+  "OUTSIDE_DECLARED_DOMAIN": 22,
+  "REJECT": 9
+ },
+ "reasons": {
+  "DEFER:UNVOCALIZED_WORD_IS_NEVER_GUESSED": 451,
+  "OUTSIDE_DECLARED_DOMAIN:-": 22,
+  "DEFER:HARAKA_IS_ABSENT_AND_IS_NEVER_GUESSED": 14,
+  "REJECT:INITIAL_SUKUN_WITHOUT_REPAIR": 9
+ },
+ "certificates": []
+}
