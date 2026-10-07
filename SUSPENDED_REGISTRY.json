@@ -1,0 +1,348 @@
+{
+  "principle": "suspension without deletion: history stays in git; nothing returns except by re_admit_requires",
+  "violations_by_kind": {
+    "measures": 14,
+    "normalizes": 5,
+    "pure": 2,
+    "reads_text": 8,
+    "writes_text": 2
+  },
+  "sole_entry_exit": "Saleh1967/Alghanem gate.api (enter, exit); here only src/entry.py (certificate atoms -> cells)",
+  "count": 17,
+  "units": [
+    {
+      "path": "suspended/legacy/prove_alama_hamila.py",
+      "previous_path": "legacy/prove_alama_hamila.py",
+      "reason": "legacy prover reading text outside the gate",
+      "suspended_at": "2026-10-07",
+      "claim": "prove_alama_hamila.py — قانون «العلامة حاملة والرتبة متبدلة».",
+      "violation": [
+        "reads_text",
+        "normalizes",
+        "writes_text",
+        "measures"
+      ],
+      "readmission_path": [
+        "input only as gate certificates (gate.enter -> atoms -> cells); no bytes read here",
+        "normalization is the gate's residue rules (A116.Residue); map each rule to a named residue edit or drop it",
+        "outputs are atoms returned to gate.exit, or generated tables checked with --check",
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/algebra116.py",
+      "previous_path": "src/slge/algebra116.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "measures"
+      ],
+      "readmission_path": [
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge.py",
+      "previous_path": "src/slge/slge.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "measures"
+      ],
+      "readmission_path": [
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge_laws.py",
+      "previous_path": "src/slge/slge_laws.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "measures"
+      ],
+      "readmission_path": [
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge_layers.py",
+      "previous_path": "src/slge/slge_layers.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "measures"
+      ],
+      "readmission_path": [
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge_ma3ani.py",
+      "previous_path": "src/slge/slge_ma3ani.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "SLGE-MA3ANI (MA) — محرّك دلالات المعاني النحوية",
+      "violation": [
+        "reads_text",
+        "measures"
+      ],
+      "readmission_path": [
+        "input only as gate certificates (gate.enter -> atoms -> cells); no bytes read here",
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge_order.py",
+      "previous_path": "src/slge/slge_order.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "normalizes",
+        "measures"
+      ],
+      "readmission_path": [
+        "normalization is the gate's residue rules (A116.Residue); map each rule to a named residue edit or drop it",
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge_phon.py",
+      "previous_path": "src/slge/slge_phon.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "measures"
+      ],
+      "readmission_path": [
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge_reverse.py",
+      "previous_path": "src/slge/slge_reverse.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "measures"
+      ],
+      "readmission_path": [
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge_unicode.py",
+      "previous_path": "src/slge/slge_unicode.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "reads_text",
+        "normalizes",
+        "measures"
+      ],
+      "readmission_path": [
+        "input only as gate certificates (gate.enter -> atoms -> cells); no bytes read here",
+        "normalization is the gate's residue rules (A116.Residue); map each rule to a named residue edit or drop it",
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/src/slge/slge_wazun.py",
+      "previous_path": "src/slge/slge_wazun.py",
+      "reason": "copied SLGE engines reading/normalizing text outside the gate; superseded by Saleh1967/Alghanem gate/ and SLGE slge.entry",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "reads_text",
+        "normalizes",
+        "measures"
+      ],
+      "readmission_path": [
+        "input only as gate certificates (gate.enter -> atoms -> cells); no bytes read here",
+        "normalization is the gate's residue rules (A116.Residue); map each rule to a named residue edit or drop it",
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/tests/test_carrier.py",
+      "previous_path": "tests/test_carrier.py",
+      "reason": "tests of suspended modules, or expectations derived from the code under test",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "reads_text",
+        "measures"
+      ],
+      "readmission_path": [
+        "input only as gate certificates (gate.enter -> atoms -> cells); no bytes read here",
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/tests/test_coverage.py",
+      "previous_path": "tests/test_coverage.py",
+      "reason": "tests of suspended modules, or expectations derived from the code under test",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "reads_text"
+      ],
+      "readmission_path": [
+        "input only as gate certificates (gate.enter -> atoms -> cells); no bytes read here"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/tests/test_ma3ani.py",
+      "previous_path": "tests/test_ma3ani.py",
+      "reason": "tests of suspended modules, or expectations derived from the code under test",
+      "suspended_at": "2026-10-07",
+      "claim": "Tests for SLGE-MA3ANI — دلالات المعاني النحوية (معاني النحو، السامرائّي).",
+      "violation": [
+        "pure"
+      ],
+      "readmission_path": [
+        "restate the claim as a Lean theorem on cells + python mirror + conformance table"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/tests/test_slge.py",
+      "previous_path": "tests/test_slge.py",
+      "reason": "tests of suspended modules, or expectations derived from the code under test",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "pure"
+      ],
+      "readmission_path": [
+        "restate the claim as a Lean theorem on cells + python mirror + conformance table"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/tools/prove_alama_hamila.py",
+      "previous_path": "tools/prove_alama_hamila.py",
+      "reason": "verify_repo ran the suspended engines; provers read text directly",
+      "suspended_at": "2026-10-07",
+      "claim": "prove_alama_hamila.py — قانون «العلامة حاملة والرتبة متبدلة».",
+      "violation": [
+        "reads_text",
+        "normalizes",
+        "writes_text",
+        "measures"
+      ],
+      "readmission_path": [
+        "input only as gate certificates (gate.enter -> atoms -> cells); no bytes read here",
+        "normalization is the gate's residue rules (A116.Residue); map each rule to a named residue edit or drop it",
+        "outputs are atoms returned to gate.exit, or generated tables checked with --check",
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    },
+    {
+      "path": "suspended/tools/verify_repo.py",
+      "previous_path": "tools/verify_repo.py",
+      "reason": "verify_repo ran the suspended engines; provers read text directly",
+      "suspended_at": "2026-10-07",
+      "claim": "",
+      "violation": [
+        "reads_text",
+        "measures"
+      ],
+      "readmission_path": [
+        "input only as gate certificates (gate.enter -> atoms -> cells); no bytes read here",
+        "re-measure on the corpus certificate deposit (18,179 forms) and a held-out reference"
+      ],
+      "re_admit_requires": [
+        "entry and exit only through the Alghanem gate: cells come from a Certificate (src/entry.py: atoms -> cells), never from text",
+        "tests with expectations independent of the code, mutation-tested (20/20 method)",
+        "ADR recorded in docs/adr/"
+      ]
+    }
+  ]
+}
